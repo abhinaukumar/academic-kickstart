@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Abhinau Kumar
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,27 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Graduate Student and Research Assistant
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: University of Texas at Austin
+  url: "https://utexas.edu"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My work is focused on estimating and optimizing the subjective quality of images and videos.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Image/Video Quality Estimation
+- Deep Learning
+- Computer Vision
+- Reinforcement Learning
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: BTech in Electrical Engineering
+    institution: Indian Institute of Technology, Hyderabad
+    year: 2019
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -44,32 +39,37 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:abhinaukumar@utexas.edu'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/nownowk
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=sI4C0T0AAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/nownowk
+- icon: linkedin
+  icon_pack: fab
+  link: https://linkedin.com/abhinau-kumar
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+# user_groups:
+# - Researchers
+# - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a PhD student at University of Texas at Austin, in the Department of Electrical and Computer Engineering. I work at the Laboratory for Image and Video Engineering [(LIVE)](https://live.ece.utexas.edu) with [Prof. Alan Bovik](http://www.ece.utexas.edu/people/faculty/alan-bovik) as a Graduate Research Assistant. We use statistical, signal processing and machine learning methods to evaluate and optimize the subjective quality of images and videos. This is especially relevant in the context of the online [video explosion](https://www.ncta.com/whats-new/report-where-does-the-majority-of-internet-traffic-come) in the recent years.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I graduated from the [Indian Institute of Technology, Hyderabad](https://iith.ac.in) with a Bachelors in Electrical Engineering, where I was awared an Institute Silver Medal for having the highest score in my department. While at IITH, I worked with [Dr. Sumohana Channappayya](https://www.iith.ac.in/~sumohana/) on applying Deep Learning to [Fourier Ptychography](https://nownowk.github.io/projects/fourier-ptychography). During the summer of 2018, I interned at [Carnegie Mellon University](https://www.cmu.edu/) as a research intern with [Prof. Katia Sycara](http://www.cs.cmu.edu/~sycara/) under the [SN Bose Scholar Program](https://www.iusstf.org/program/sn-bose-scholars-program) where I worked on developing a biologically-inspired [safe Reinforcement Learning algorithm](https://arxiv.org/abs/1809.09147). I was also a summer intern at Uurmi Systems (C/o Mathworks Inc.) where I worked on optimizing stereo matching algorithms for GPUs using CUDA.
+
+When I am not trying to figure out why you didn't like that one cat video as much as the others, I play badminton for leisure and write amateur poetry. 

@@ -3,7 +3,7 @@
 widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 50  # Order that this section will appear.
+weight = 300  # Order that this section will appear.
 
 title = "Accomplish&shy;ments"
 subtitle = ""
@@ -19,33 +19,52 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
+  organization = "Indian Institute of Technology, Hyderabad"
+  organization_url = "https://iith.ac.in"
+  title = "Institute Silver Medal"
   url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  certificate_url = ""
+  date_start = "2019-08-10"
   date_end = ""
   description = ""
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
-  date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
-  
-[[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  organization = "Indian Institute of Technology, Hyderabad"
+  organization_url = "https://iith.ac.in"
+  title = "Academic Excellence Award"
   url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
+  certificate_url = ""
+  date_start = "2019-03-10"
+  date_end = ""
   description = ""
 
+[[item]]
+  organization = "Indo-US Science and Technology Forum"
+  organization_url = "https://iusstf.org"
+  title = "SN Bose Scholarship"
+  url = ""
+  certificate_url = ""
+  date_start = "2018-02-08"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "Indian Institute of Technology, Hyderabad"
+  organization_url = "https://iith.ac.in"
+  title = "Academic Excellence Award"
+  url = ""
+  certificate_url = ""
+  date_start = "2017-03-10"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "Department of Science and Technology, Government of India"
+  organization_url = "https://dst.gov.in"
+  title = "KVPY Fellowship"
+  url = ""
+  certificate_url = ""
+  date_start = "2014-03-18"
+  date_end = ""
+  description = ""
 +++

@@ -5,9 +5,9 @@
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 60  # Order that this section will appear.
+weight = 400 # Order that this section will appear.
 
-title = "Recent Posts"
+title = "Recent Academic Writing"
 subtitle = ""
 
 [content]
@@ -15,7 +15,7 @@ subtitle = ""
   page_type = "post"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 5
+  count = 1
   
   # Choose how many pages you would like to offset by
   offset = 0
@@ -25,11 +25,12 @@ subtitle = ""
 
   # Filter posts by a taxonomy term.
   [content.filters]
-    tag = ""
+    tag = "Academic"
     category = ""
     publication_type = ""
-    author = ""
     exclude_featured = false
+    exclude_past = false
+    exclude_future = false
   
 [design]
   # Toggle between the various page layout types.
