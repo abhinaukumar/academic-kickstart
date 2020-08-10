@@ -39,7 +39,7 @@ Of all the things I could have done,\
 I abandoned classical notions of “fun”\
 And chose the path that many dread; \
 The path that only the vagabonds tread.\
-The trail was dark, but uncannily pleasant; \
+The trail was dark but uncannily pleasant; \
 Calming, yet chaotic like a raging adolescent. \
 The moon offered only attention, not love; \
 She was a lone friend loaned from above.
@@ -55,7 +55,7 @@ I had come for some peace; this was anything but.\
 Even so, I could tell it swung around \
 Waiting, as a forgotten victim, to be found.\
 'That was a man’, my brain tried to reaffirm.\
-‘Of course it was’. But my eyes wouldn't confirm.
+‘Of course, it was’. But my eyes wouldn't confirm.
 
 In spite of the crippling fear and fatigue, \
 The man's identity was a cause of intrigue.\
@@ -64,7 +64,7 @@ Maybe he just couldn’t outrun his debt. \
 Or a man of great wisdom and might\
 Brought to the ground on his greatest flight\
 Unable to share life's sense of humour\
-And gone at the dawn of the most vile rumour. \
+And gone at the dawn of the vilest rumour. \
 Or maybe just a man tired of his woeful existence\
 Who declined to offer any further resistance.\
 Or maybe he just took a fateful drink,\
