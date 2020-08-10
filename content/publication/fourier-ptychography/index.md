@@ -37,7 +37,7 @@ featured: false
 #   icon: twitter
 
 url_pdf: "https://ieeexplore.ieee.org/document/9049029"
-url_code: "https://github.com/nownowk/fourier_ptychography"
+url_code: "https://github.com/abhinaukumar/fourier_ptychography"
 url_dataset:
 url_poster:
 url_project:

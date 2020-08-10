@@ -48,7 +48,7 @@ social:
   link: https://scholar.google.com/citations?user=sI4C0T0AAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/nownowk
+  link: https://github.com/abhinaukumar
 - icon: linkedin
   icon_pack: fab
   link: https://linkedin.com/abhinau-kumar
