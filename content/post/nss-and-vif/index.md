@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Natural Scene Statistics and Visual Information Fidelity"
 subtitle: ""
 summary: ""

@@ -6,7 +6,7 @@ authors: ["admin"]
 tags: ["Academic"]
 categories: ["Reading"]
 date: 2020-08-08
-lastmod: 2020-08-08
+lastmod: 2020-08-16
 featured: false
 draft: false
 math: true
@@ -41,7 +41,7 @@ The Gray Level Co-occurence Matric (GLCM) is arguably the most common method of 
 
 The entries of this matrix are then normalized by the sum of all entries, giving us a normalized GLCM, say  $ P_\delta $, which is a valid probability mass function. While the GLCM itself is not used to, say, compare textures, we derive numerical features from these which are used to describe texture. Some examples of such features are
 * **Maximum** :  $ \max P_\delta[i,j] $ , i.e., the most likely pair of intensities.
-* **Order $ k $ difference moment** : $ E[(i-j)^k)] $ , or its inverse  $ E[1/(i-j)^k] $ . A special case of this is the contrast, which is the 2nd difference moment, i.e.,  $ E[(i-j)^2] $ .
+* **Order $ k $ difference moment** : $ E[(i-j)^k] $ , or its inverse  $ E[1/(i-j)^k] $ . A special case of this is the contrast, which is the 2nd difference moment, i.e.,  $ E[(i-j)^2] $ .
 * **Homogeneity**: $ E\left[\frac{1}{(1 + \lvert i-j\rvert)}\right] $ . A homogeneous image will have non-zero entries close to the principal diagonal, i.e  $ i \approx j $ , while a heterogeneous image will have a more even spread since many pairs occur.
 * **Entropy**: $ E[-\log P_\delta[i,j]] $ , which is a measure of the ''spread'' or the amount of information in the distribution.
 * **Correlation**: $ \frac{E[ij] - \mu_i\mu_j}{\sigma_i \sigma_j} $  which is high when pixels have a linear dependence.
