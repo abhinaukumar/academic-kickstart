@@ -770,7 +770,7 @@ Based on our experiments, we have the following key takeways.
 3. The RETAIN model is able to match, and even out perform, traditional RNN models, with the added benefit of interpretability.
 4. In most cases, the federated learning model can guarantee the confidentiality of patient data, while incurring a small sacrifice in performance.
 
-The code for all our experiments can be found at [this GitHub repository](https://github.com/parvenkumar/datamining).
+The code for all our experiments can be found at [this GitHub repository](https://github.com/parvenkumari/datamining).
 
 # Some Caveats
 The eICU database is large and comprises of routinely collected clinical data in an eICU setting. However, the database also contains non-ICU stays (e.g., step down units SDUs). This means that some patients (patient unit stay ids) in our dataset could be from SDUs, rather than an actual ICU unit stay. Nevertheless, we do not expect this to affect our results because all our models use the same data, and we only analyze tradeoffs.
