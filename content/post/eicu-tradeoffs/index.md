@@ -28,8 +28,10 @@ In addition to having a predictive model, an accurate understanding of the facto
 
 Also, the dataset is sensitive for the patients and must be protected. All countries have laws to protect privacy, leading to difficulties in the data collection phase. Many hospitals may refuse to share healthcare data without any Health Insurance Portability and Accountability Act (HIPAA) agreements or data governance in place. Therefore, we also investigated a Federated Learning framework to address such privacy issues.  This distributed learning framework leads us to the second tradeoff – performance vs. privacy security. 
 
+This post is part of my term project for the Data Mining (EE 380L) class with Nishamathi Kumaraswamy, Zhengzhong Tu, Parveen Kumari, and Huancheng Chen who are all students of UT Austin. We would also like to thank PhysioNet for granting accesss to the eICU database, which is the backbone of all of our experiments.
+
 # The eICU Database
-The eICU Collaborative Research Database [2] is a multi-center intensive care unit database with high granularity data for over 200,000 admissions to ICUs monitored by eICU programs across the United States. The eICU database comprises 200,859 patient unit encounters for 139,367 unique patients admitted between 2014 and 2015 to 208 hospitals located throughout the US. 
+The eICU Collaborative Research Database [2] is a multi-center intensive care unit database with high granularity data for over 200,000 admissions to ICUs monitored by eICU programs across the United States. The database is publicly available [here](https://physionet.org/content/eicu-crd/2.0/), and comprises 200,859 patient unit encounters for 139,367 unique patients admitted between 2014 and 2015 to 208 hospitals located throughout the US. 
 
 The database is de-identified and includes vital sign measurements, care plan documentation, severity of illness measures, diagnosis information, treatment information, and more. The data is publicly available after registration, including completion of a training course on research with human subjects and signing of a data use agreement mandating responsible handling of the data and adhering to the principle of collaborative research.
 
