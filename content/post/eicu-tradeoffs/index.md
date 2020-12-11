@@ -13,14 +13,13 @@ math: true
 # Featured image
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: 'Source: [**TwistedSifter**](https://twistedsifter.com/2015/04/the-banyan-tree/)'
+  caption: 'Source: [**Managed Healthcare Executive**](https://www.managedhealthcareexecutive.com/view/six-healthcare-technologies-coming-next-10-years)'
   focal_point: ""
   preview_only: false
 
 projects: []
 ---
 
-# Introduction and Background
 Patients with prolonged stay often account for high resource consumption [1], and so, are a potential loss of revenue from a hospital management perspective. This is especially important in the case of Intensive Care Unit (ICU) and electronic ICU (eICU) patients due to their intensive need for care resources like nurses, drugs, surgeons, X-ray machines, etc., for continuous monitoring.  Data mining and predicting/projecting the remaining length of stay (rLOS) for a patient will help allocate resources efficiently and provide timely services to patients.  
 
 The challenge for developing such a predictive model arises from the incomplete understanding of the complex clinical factors that may be involved and their interactions or relationships that lead to a specific LOS. This is a potential application for neural networks, which are considered universal function approximators. Since we are handling time-series data in the form of patient records, we mainly use CNNs and RNNs (and related architectures) to predict rLOS.  
@@ -29,12 +28,12 @@ In addition to having a predictive model, an accurate understanding of the facto
 
 Also, the dataset is sensitive for the patients and must be protected. All countries have laws to protect privacy, leading to difficulties in the data collection phase. Many hospitals may refuse to share healthcare data without any Health Insurance Portability and Accountability Act (HIPAA) agreements or data governance in place. Therefore, we also investigated a Federated Learning framework to address such privacy issues.  This distributed learning framework leads us to the second tradeoff – performance vs. privacy security. 
 
-# Database
+# The eICU Database
 The eICU Collaborative Research Database [2] is a multi-center intensive care unit database with high granularity data for over 200,000 admissions to ICUs monitored by eICU programs across the United States. The eICU database comprises 200,859 patient unit encounters for 139,367 unique patients admitted between 2014 and 2015 to 208 hospitals located throughout the US. 
 
 The database is de-identified and includes vital sign measurements, care plan documentation, severity of illness measures, diagnosis information, treatment information, and more. The data is publicly available after registration, including completion of a training course on research with human subjects and signing of a data use agreement mandating responsible handling of the data and adhering to the principle of collaborative research.
 
-# Data preprocessing 
+# Preprocessing the Data
 
 To clean and preprocess the data, we use the same procedure used in [3]. To clean the data, we use several exclusion criteria.  
 
@@ -177,7 +176,7 @@ Sheikhalishahi et al. [3] proposed a Bidirectional Long Short Term Memory (BiLST
 
 Other than unsupervised and supervised methods, reinforcement learning (RL) models have also been developed using the eICU database. Komorowski et al. Komorowsksi et al. [7] trained an RL agent to learn an optimal “clinician policy,” to reduce the mortality risk of patients. The agent was trained and validated using the MIMIC-III database, while the eICU database was used for model testing.
 
-# Models
+# The Models We Tested
 We can broadly divide the different trained models into three broad categories, baseline, advanced, and federated models. The baseline models consist of standard regression models like decision trees, linear regression, and support vector regressors, and ensemble models built on these base regressors.
 
 Among the advanced models, we have Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and an interpretable RNN called the Reverse Time Attention (RETAIN) model. 
@@ -596,7 +595,6 @@ As explained above, we interpret the RETAIN model by examining the coefficients 
 From the figure, we see that the weights of the offset and the admission diagnosis change rapidly, while the other weights remain approximately constant. This makes sense because the admission diagnosis may become less important as time progresses, and the change in rLOS over time is fuelled by the offset.
 
 ## Federated Learning
-Through the results of our experiments on IID and non-IID data, we will show that in most cases, the federated learning model can guarantee the confidentiality of patient data, while incurring a small sacrifice in performance.
 
 ### Performance on IID Data
 
@@ -762,7 +760,15 @@ In the table below, we compare the best performing models of each type. We omit 
 
 Because the targets predicted by the baselines models are different from those predicted by the advanced models, knowing the LOS is equivalent to know the rLOS, because the current offset is always known. So, even though we cannot directly compare the values, it is clear that simple regression models are able to match, if not exceed, the performance of sophisticated neural networks by having access to the last data. This means that almost all of the predictive power of a patient's records is in the last record.
 
-# Limitations
+# What Have We Learnt?
+
+Based on our experiments, we have the following key takeways.
+1. Simple regressors that have access to the last record achieve almost perfect predictions.
+2. CNNs are unable to capture long-term dependencies, so they perform poorly in spite of having access to all records.
+3. The RETAIN model is able to match, and even out perform, traditional RNN models, with the added benefit of interpretability.
+4. In most cases, the federated learning model can guarantee the confidentiality of patient data, while incurring a small sacrifice in performance.
+
+# Some Caveats
 The eICU database is large and comprises of routinely collected clinical data in an eICU setting. However, the database also contains non-ICU stays (e.g., step down units SDUs). This means that some patients (patient unit stay ids) in our dataset could be from SDUs, rather than an actual ICU unit stay. Nevertheless, we do not expect this to affect our results because all our models use the same data, and we only analyze tradeoffs.
 
 An important observation about our results is that models that did not have access to all records (and so, the last record), performed very poorly. Having access to all records is a profoundly impractical assumption, because simply knowing that we have all the records means knowing that the patient's stay has ended, which renders predicting the LOS useless.
@@ -789,8 +795,9 @@ Moreover, while our experiments with federated learning showed good results, the
 
 [7] Komorowski, M., Celi, L.A., Badawi, O. et al. The Artificial Intelligence Clinician learns optimal treatment strategies for sepsis in intensive care. Nat Med 24, 1716–1720 (2018). https://doi.org/10.1038/s41591-018-0213-5
 
-[8] Wenke, S., Fleming, J.: Contextual Recurrent Neural Networks. CoRR abs/1902.0
-(2019), http://arxiv.org/abs/1902.03455
+[8] Wenke, S., & Fleming, J. (2019). Contextual Recurrent Neural Networks. arXiv preprint arXiv:1902.03455.
+
+Smirnova, E., & Vasile, F. (2017, August). Contextual sequence modeling for recommendation with recurrent neural networks. In Proceedings of the 2nd Workshop on Deep Learning for Recommender Systems (pp. 2-9).
 
 [9] Choi, E., Bahadori, M. T., Sun, J., Kulas, J., Schuetz, A., & Stewart, W. (2016). Retain: An interpretable predictive model for healthcare using reverse time attention mechanism. In Advances in Neural Information Processing Systems (pp. 3504-3512).
 
