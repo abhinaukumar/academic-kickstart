@@ -181,7 +181,9 @@ We can broadly divide the different trained models into three broad categories, 
 
 Among the advanced models, we have Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and an interpretable RNN called the Reverse Time Attention (RETAIN) model. 
 
-We use the RETAIN and Federated Learning models to understand the tradeoffs in performance when enforcing interpretability and privacy, respectively.
+We use the RETAIN and Federated Learning models to understand the tradeoffs in performance when enforcing interpretability and privacy, respectively. We report the performance of all our models using three metrics - the Mean Absolute Error (MAE), the (Root) Mean Squared Error (RMSE / MSE), and the $R^2$ score. While the MAE and the (R)MSE are self-explanatory, the $R^2$ score warrants explanation. 
+
+The $R^2$ score is the fraction of the variance in targets that is explained by the regression model. So, if the predictions are perfect, all the variance in the data is explained by the model, and the $R^2$ score achieves its maximum value of 1. If the model is naive and predicts the mean value of the target, irrespective of input, none of the variation is explained by the model and the $R^2$ score is 0. Note that the $R^2$ score can be negative, which means that the model performs worse than a naive constant-prediction model.
 
 ## Baseline Models
 We considered the following baseline regression models in our experiments.
@@ -767,6 +769,8 @@ Based on our experiments, we have the following key takeways.
 2. CNNs are unable to capture long-term dependencies, so they perform poorly in spite of having access to all records.
 3. The RETAIN model is able to match, and even out perform, traditional RNN models, with the added benefit of interpretability.
 4. In most cases, the federated learning model can guarantee the confidentiality of patient data, while incurring a small sacrifice in performance.
+
+The code for all our experiments can be found at [this GitHub repository](https://github.com/parvenkumar/datamining).
 
 # Some Caveats
 The eICU database is large and comprises of routinely collected clinical data in an eICU setting. However, the database also contains non-ICU stays (e.g., step down units SDUs). This means that some patients (patient unit stay ids) in our dataset could be from SDUs, rather than an actual ICU unit stay. Nevertheless, we do not expect this to affect our results because all our models use the same data, and we only analyze tradeoffs.
