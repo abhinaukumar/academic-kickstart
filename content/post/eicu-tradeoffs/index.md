@@ -33,7 +33,7 @@ This post is part of my term project for the Data Mining (EE 380L) class with Ni
 # The eICU Database
 The eICU Collaborative Research Database [2] is a multi-center intensive care unit database with high granularity data for over 200,000 admissions to ICUs monitored by eICU programs across the United States. The database is publicly available [here](https://physionet.org/content/eicu-crd/2.0/), and comprises 200,859 patient unit encounters for 139,367 unique patients admitted between 2014 and 2015 to 208 hospitals located throughout the US. 
 
-The database is de-identified and includes vital sign measurements, care plan documentation, severity of illness measures, diagnosis information, treatment information, and more. The data is publicly available after registration, including completion of a training course on research with human subjects and signing of a data use agreement mandating responsible handling of the data and adhering to the principle of collaborative research. We would like to thank PhysioNet for granting accesss to the eICU database, which is the backbone of all of our experiments.
+The database is de-identified and includes vital sign measurements, care plan documentation, severity of illness measures, diagnosis information, treatment information, and more. The data is publicly available after registration, including completion of a training course on research with human subjects and signing of a data use agreement mandating responsible handling of the data and adhering to the principle of collaborative research. We would like to thank PhysioNet for granting accesss to the eICU database, which forms the backbone of all of our experiments.
 
 # Preprocessing the Data
 
