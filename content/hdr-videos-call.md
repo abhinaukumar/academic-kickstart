@@ -29,5 +29,5 @@ In addition to being "pristine", we would like to ensure that the content of the
 
 For examples of HDR videos, see [here](https://www.youtube.com/watch?v=N1-Jmq7BLFE) and [here](https://www.youtube.com/watch?v=0nTO4zSEpOs); several others are available on YouTube. Note that, unlike these examples, the audio that is captured along with your videos will be completely ignored, since we are interested in purely the visual quality. Finally, should you submit one or more videos to the study, we will ask that you sign an agreement allowing us to freely distribute them to the public. So, please do not submit any private, proprietary, or confidential videos.
 
-I hope you will spend a small amount of your time supporting this line of research. Our findings will directly help in developing the next generation of video processing tools for delivering high-quality videos, making your contributions immensely valuable!
+If you have any questions, please feel free to contact me at abhinaukumar@utexas.edu. I hope you will spend a small amount of your time supporting this line of research. Our findings will directly help in developing the next generation of video processing tools for delivering high-quality videos, making your contributions immensely valuable!
 
