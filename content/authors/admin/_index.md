@@ -68,6 +68,8 @@ email: ""
 # - Visitors
 ---
 
+### * Announcement - Help me with a research project by filming short videos! More info at https://abhinaukumar.github.io/hdr-videos-call *
+
 I am a PhD student at the University of Texas at Austin, in the Department of Electrical and Computer Engineering. I work at the Laboratory for Image and Video Engineering [(LIVE)](https://live.ece.utexas.edu) with [Prof. Alan Bovik](http://www.ece.utexas.edu/people/faculty/alan-bovik) as a Graduate Research Assistant. We use statistical, signal processing and machine learning methods to evaluate and optimize the subjective quality of images and videos. This is especially relevant in the context of the online [video explosion](https://www.ncta.com/whats-new/report-where-does-the-majority-of-internet-traffic-come) in recent years.
 
 I graduated from the [Indian Institute of Technology, Hyderabad](https://iith.ac.in) in India with a Bachelors in Electrical Engineering, where I was awarded an Institute Silver Medal for having the highest score in my department. While at IIT Hyderabad, I was involved in several clubs. During my sophomore year, I was selected as a student mentor at [Sunshine, the Counseling Cell of IIT Hyderabad](https://sunshine.iith.ac.in/), which I became the student head of the next year. I was also heavily involved with the [Literary Society](http://gymkhana.iith.ac.in/litsoc.html), writing for [Lexicon, the magazine of the Literary Society](https://theiithlexicon.wordpress.com/) and serving as its editor during my junior year. That same year, I was also the Literary Events coordinator at [Elan, the cultural fest of IIT Hyderabad](https://www.facebook.com/pg/elan.iithyderabad/posts/) and a coordinator of the Quiz Club.
