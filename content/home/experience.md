@@ -17,10 +17,38 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Incoming Software Engineering Intern"
+  company = "Apple, Inc."
+  company_url = "https://www.apple.com/"
+  location = "Cupertino, CA"
+  date_start = "2023-05-08"
+  date_end = ""
+  description = """"""
+
+[[experience]]
+  title = "ASIC Architecture Intern"
+  company = "Meta Platforms, Inc."
+  company_url = "https://www.meta.com/"
+  location = "Sunnyvale, CA"
+  date_start = "2022-05-23"
+  date_end = "2022-08-12"
+  description = """Worked with Meta's Hardware team to design efficient hardware-friendly video processing and compression algorithms."""
+
+[[experience]]
+  title = "ASIC Architecture Intern"
+  company = "Facebook, Inc."
+  company_url = "https://www.meta.com/"
+  location = "Austin, TX"
+  date_start = "2021-06-01"
+  date_end = "2021-08-20"
+  description = """Worked with Meta's Hardware team to design efficient hardware-friendly video processing and compression algorithms."""
+
 [[experience]]
   title = "Graduate Research Assistant"
   company = "Laboratory for Image and Video Engineering"
-  company_url = "hhtps://live.ece.utexas.edu"
+  company_url = "https://live.ece.utexas.edu"
   location = "Austin, TX"
   date_start = "2019-09-01"
   date_end = ""
