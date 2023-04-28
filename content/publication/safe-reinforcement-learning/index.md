@@ -3,7 +3,7 @@
 
 title: "Better Safe than Sorry: Evidence Accumulation Allows for Safe Reinforcement Learning"
 authors: ["Akshat Agarwal", "Abhinau Kumar V", "Kyle Dunovan", "Erik Peterson", "Timothy Verstynen", "Katia Sycara"]
-date: 2018-09-24T18:13:01-05:00
+date: 2020-08-09T16:38:12-05:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
