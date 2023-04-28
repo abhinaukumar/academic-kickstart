@@ -1,25 +1,25 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Perceptually Driven Conditional GAN for Fourier Ptychography"
-authors: ["Abhinau Kumar V", "Shashank Gupta", "Sumohana S. Channappayya"]
-date: 2020-03-30T00:00:00-05:00
-doi: "10.1109/IEEECONF44664.2019.9049029"
+title: "One Transform To Compute Them All: Efficient Fusion-Based Full-Reference Video Quality Assessment"
+authors: ["Abhinau K. Venkataramanan", "Cosmin Stejerean", "Ioannis Katsavounidis", "Alan C. Bovik"]
+date: 2023-04-06T23:26:54-05:00
+doi: "10.48550/arXiv.2202.11241"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2020-08-09T16:43:32-05:00
+publishDate: 2023-04-28T00:28:00-05:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "2019 53rd Asilomar Conference on Signals, Systems, and Computers"
-publication_short: "Asilomar 2019"
+publication: "Arxiv"
+publication_short: ""
 
-abstract: "Fourier Ptychography (FP) is a computational imaging technique which artificially increases the effective numerical aperture of an imaging system. In FP, the object is imaged using an array of Light Emitting Diodes (LEDs), each from a different illumination angle. A high resolution image is synthesized from this low resolution stack, typically using iterative phase retrieval algorithms. However, such algorithms are time consuming and fail when the overlap between the spectra of images is low, leading to high data requirements. At the crux of FP lies a phase retrieval problem. In this paper, we propose a Deep Learning (DL) algorithm to perform this synthesis under low spectral overlap between samples, and show a significant improvement in phase reconstruction over existing DL algorithms."
+abstract: "The Visual Multimethod Assessment Fusion (VMAF) algorithm has recently emerged as a state-of-the-art approach to video quality prediction, that now pervades the streaming and social media industry. However, since VMAF requires the evaluation of a heterogeneous set of quality models, it is computationally expensive. Given other advances in hardware-accelerated encoding, quality assessment is emerging as a significant bottleneck in video compression pipelines. Towards alleviating this burden, we propose a novel Fusion of Unified Quality Evaluators (FUNQUE) framework, by enabling computation sharing and by using a transform that is sensitive to visual perception to boost accuracy. Further, we expand the FUNQUE framework to define a collection of improved low-complexity fused-feature models that advance the state-of-the-art of video quality performance with respect to both accuracy and computational efficiency."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -36,8 +36,8 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: "https://ieeexplore.ieee.org/document/9049029"
-url_code: "https://github.com/abhinaukumar/fourier_ptychography"
+url_pdf: "https://arxiv.org/pdf/2304.03412.pdf"
+url_code: ""
 url_dataset:
 url_poster:
 url_project:

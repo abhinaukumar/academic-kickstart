@@ -1,13 +1,13 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "No-reference quality assessment of tone mapped High Dynamic Range (HDR) images using transfer learning"
-authors: ["V. Abhinau Kumar", "Shashank Gupta", "Sai Sheetal Chandra", "Shanmuganathan Raman", "Sumohana S. Channappayya"]
-date: 2017-07-03T00:00:00-05:00
-doi: "10.1109/QoMEX.2017.7965668"
+title: "FUNQUE: Fusion of Unified Quality Evaluators"
+authors: ["Abhinau K Venkataramanan", "Cosmin Stejerean", "Alan C Bovik"]
+date: 2022-10-18T00:00:00-05:00
+doi: "10.1109/ICIP46576.2022.9897312"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2020-08-09T16:34:44-05:00
+publishDate: 2023-04-28T00:28:00-05:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,10 +16,9 @@ publishDate: 2020-08-09T16:34:44-05:00
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "2017 Ninth International Conference on Quality of Multimedia Experience (QoMEX)"
-publication_short: "QOMEX 2017"
-
-abstract: "We present a transfer learning framework for no-reference image quality assessment (NRIQA) of tonemapped High Dynamic Range (HDR) images. This work is motivated by the observation that quality assessment databases in general, and HDR image databases in particular are “small” relative to the typical requirements for training deep neural networks. Transfer learning based approaches have been successful in such scenarios where learning from a related but larger database is transferred to the smaller database. Specifically, we propose a framework where the successful AlexNet is used to extract image features. This is followed by the application of Principal Component Analysis (PCA) to reduce the dimensionality of the feature vector (from 4096 to 400), given the small database size. A linear regression model is then fit to Mean Opinion Scores (MOS) using L2 regularization to prevent overfitting. We demonstrate state-of-the-art performance of the proposed approach on the ESPL-LIVE database."
+publication: "2022 IEEE International Conference on Image Processing (ICIP)"
+publication_short: "ICIP 2022"
+abstract: "Fusion-based quality assessment has emerged as a powerful method for developing high-performance quality models from quality models that individually achieve lower performances. A prominent example of such an algorithm is VMAF, which has been widely adopted as an industry standard for video quality prediction along with SSIM. In addition to advancing the state-of-the-art, it is imperative to alleviate the computational burden presented by the use of a heterogeneous set of quality models. In this paper, we unify \"atom\" quality models by computing them on a common transform domain that accounts for the Human Visual System, and we propose FUNQUE, a quality model that fuses unified quality evaluators. We demonstrate that in comparison to the state-of-the-art, FUNQUE offers significant improvements in both correlation against subjective scores and efficiency, due to computation sharing."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -36,8 +35,8 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: "https://ieeexplore.ieee.org/document/7965668"
-url_code:
+url_pdf: "https://arxiv.org/pdf/2202.11241.pdf"
+url_code: "https://github.com/abhinaukumar/funque"
 url_dataset:
 url_poster:
 url_project:
@@ -67,3 +66,4 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+

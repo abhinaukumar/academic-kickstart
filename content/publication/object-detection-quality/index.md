@@ -1,13 +1,13 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "No-reference quality assessment of tone mapped High Dynamic Range (HDR) images using transfer learning"
-authors: ["V. Abhinau Kumar", "Shashank Gupta", "Sai Sheetal Chandra", "Shanmuganathan Raman", "Sumohana S. Channappayya"]
-date: 2017-07-03T00:00:00-05:00
-doi: "10.1109/QoMEX.2017.7965668"
+title: "Assessing the impact of image quality on object-detection algorithms"
+authors: ["Abhinau K. Venkataramanan", "Marius Facktor", "Praful Gupta", "Alan C. Bovik"]
+date: 2022-01-01T00:00:00-05:00
+doi: "10.2352/EI.2022.34.9.IQSP-334"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2020-08-09T16:34:44-05:00
+publishDate: 2022-04-28T00:28:00-05:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,10 +16,10 @@ publishDate: 2020-08-09T16:34:44-05:00
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "2017 Ninth International Conference on Quality of Multimedia Experience (QoMEX)"
-publication_short: "QOMEX 2017"
+publication: "Int’l. Symp. on Electronic Imaging: Image Quality and System Performance,  2022"
+publication_short: "EI IQSP 2022"
 
-abstract: "We present a transfer learning framework for no-reference image quality assessment (NRIQA) of tonemapped High Dynamic Range (HDR) images. This work is motivated by the observation that quality assessment databases in general, and HDR image databases in particular are “small” relative to the typical requirements for training deep neural networks. Transfer learning based approaches have been successful in such scenarios where learning from a related but larger database is transferred to the smaller database. Specifically, we propose a framework where the successful AlexNet is used to extract image features. This is followed by the application of Principal Component Analysis (PCA) to reduce the dimensionality of the feature vector (from 4096 to 400), given the small database size. A linear regression model is then fit to Mean Opinion Scores (MOS) using L2 regularization to prevent overfitting. We demonstrate state-of-the-art performance of the proposed approach on the ESPL-LIVE database."
+abstract: "Many algorithms have been developed to evaluate the perceptual quality of images and videos, based on models of picture statistics and visual perception. These algorithms attempt to capture user experience better than simple metrics like the peak signal-to-noise ratio (PSNR) and are widely utilized on streaming service platforms and in social networking applications to improve users' Quality of Experience. The growing demand for high-resolution streams and rapid increases in user-generated content (UGC) sharpens interest in the computation involved in carrying out perceptual quality measurements. In this direction, we propose a suite of methods to efficiently predict the structural similarity index (SSIM) of high-resolution videos distorted by scaling and compression, from computations performed at lower resolutions. We show the effectiveness of our algorithms by testing on a large corpus of videos and on subjective data."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -36,8 +36,8 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: "https://ieeexplore.ieee.org/document/7965668"
-url_code:
+url_pdf: "https://library.imaging.org/admin/apis/public/api/ist/website/downloadArticle/ei/34/9/IQSP-334"
+url_code: ""
 url_dataset:
 url_poster:
 url_project:
@@ -67,3 +67,4 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+

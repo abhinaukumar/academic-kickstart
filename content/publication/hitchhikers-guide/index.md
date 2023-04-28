@@ -1,25 +1,25 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Perceptually Driven Conditional GAN for Fourier Ptychography"
-authors: ["Abhinau Kumar V", "Shashank Gupta", "Sumohana S. Channappayya"]
-date: 2020-03-30T00:00:00-05:00
-doi: "10.1109/IEEECONF44664.2019.9049029"
+title: "A hitchhiker’s guide to structural similarity"
+authors: ["Abhinau K. Venkataramanan", "Chengyang Wu", "Alan C. Bovik", "Ioannis Katsavounidis", "Zafar Shahid"]
+date: 2021-02-02T00:00:00-05:00
+doi: "10.1109/ACCESS.2021.3056504"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2020-08-09T16:43:32-05:00
+publishDate: 2022-04-28T00:28:00-05:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "2019 53rd Asilomar Conference on Signals, Systems, and Computers"
-publication_short: "Asilomar 2019"
+publication: "IEEE Access"
+publication_short: "IEEE Access"
 
-abstract: "Fourier Ptychography (FP) is a computational imaging technique which artificially increases the effective numerical aperture of an imaging system. In FP, the object is imaged using an array of Light Emitting Diodes (LEDs), each from a different illumination angle. A high resolution image is synthesized from this low resolution stack, typically using iterative phase retrieval algorithms. However, such algorithms are time consuming and fail when the overlap between the spectra of images is low, leading to high data requirements. At the crux of FP lies a phase retrieval problem. In this paper, we propose a Deep Learning (DL) algorithm to perform this synthesis under low spectral overlap between samples, and show a significant improvement in phase reconstruction over existing DL algorithms."
+abstract: "The Structural Similarity (SSIM) Index is a very widely used image/video quality model that continues to play an important role in the perceptual evaluation of compression algorithms, encoding recipes and numerous other image/video processing algorithms. Several public implementations of the SSIM and Multiscale-SSIM (MS-SSIM) algorithms have been developed, which differ in efficiency and performance. This “bendable ruler” makes the process of quality assessment of encoding algorithms unreliable. To address this situation, we studied and compared the functions and performances of popular and widely used implementations of SSIM, and we also considered a variety of design choices. Based on our studies and experiments, we have arrived at a collection of recommendations on how to use SSIM most effectively, including ways to reduce its computational burden."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -36,8 +36,8 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: "https://ieeexplore.ieee.org/document/9049029"
-url_code: "https://github.com/abhinaukumar/fourier_ptychography"
+url_pdf: "https://arxiv.org/pdf/2101.06354.pdf"
+url_code: "https://github.com/utlive/enhanced_ssim"
 url_dataset:
 url_poster:
 url_project:
@@ -67,3 +67,4 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+
