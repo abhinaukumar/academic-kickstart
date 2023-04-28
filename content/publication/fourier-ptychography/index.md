@@ -3,7 +3,7 @@
 
 title: "Perceptually Driven Conditional GAN for Fourier Ptychography"
 authors: ["Abhinau Kumar V", "Shashank Gupta", "Sumohana S. Channappayya"]
-date: 2020-08-09T16:43:32-05:00
+date: 2020-03-30T00:00:00-05:00
 doi: "10.1109/IEEECONF44664.2019.9049029"
 
 # Schedule page publish date (NOT publication's date).

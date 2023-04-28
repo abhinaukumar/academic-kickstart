@@ -3,7 +3,7 @@
 
 title: "No-reference quality assessment of tone mapped High Dynamic Range (HDR) images using transfer learning"
 authors: ["V. Abhinau Kumar", "Shashank Gupta", "Sai Sheetal Chandra", "Shanmuganathan Raman", "Sumohana S. Channappayya"]
-date: 2020-08-09T16:34:44-05:00
+date: 2017-07-03T00:00:00-05:00
 doi: "10.1109/QoMEX.2017.7965668"
 
 # Schedule page publish date (NOT publication's date).
