@@ -1,6 +1,6 @@
 ---
-title: Film HDR Videos to Support My Research!
-date: "2021-12-11T00:00:00+01:00"
+title: Please Donate HDR Videos for Good Karma
+date: "2023-10-27T00:00:00+01:00"
 draft: false
 share: false
 commentable: false
@@ -12,30 +12,52 @@ header:
   image: ""
 ---
 
-#### UPDATE: Now accepting Samsung phones in addition to iPhones, clarifying that videos must be in landscape mode, and updated duration requirements to 20 seconds from 10 seconds. Please read the text for more details.
+**Authors**: Abhinau Kumar, Shreshth Saini, and Prof. Alan Bovik, from the Laboratory for Image and Video Engineering
 
-#### Please read the text below before submitting your videos to this Google Form - [HDR Video Submission](https://docs.google.com/forms/d/e/1FAIpQLSe10jSGzzbRick_mr61cSHH6yWCsyLKvUaBoquIeNtYFG_QhQ/viewform)
+**E-Mails**: [abhinaukumar@utexas.edu](mailto:abhinaukumar@utexas.edu), [saini.2@utexas.edu](mailto:saini.2@utexas.edu)
 
-Hello! My name is Abhinau and I am a Graduate Research Assistant at UT Austin. I am conducting a study to understand the impact of tone-mapping on the quality of High Dynamic Range (HDR) videos. Simply put, HDR videos are capable of capturing a wide range of brightness (think bright clouds and shadows at the same time) and colors, in comparison to the usual Standard Dynamic Range (SDR) videos. However, the vast majority of displays currently in use are only capable of displaying SDR content. As a result, HDR videos must be “down-converted” to SDR using a process called tone-mapping, thereby “degrading” their quality. The goal of this study is to understand and model these effects.
+Hello! My name is Abhinau and I am a Graduate Research Assistant at UT Austin. Shreshth Saini, another graduate student at UT Austin, and I are looking to bridge a large gap in the literature - the absence of publicly available High Dynamic Range videos! HDR is all around us, and you might have seen it advertised on TVs, phones, and cameras recently. At the Laboratory for Image and Video Engineering, we conduct pioneering research to improve users' experience with HDR videos (among others). But, because there is no data, we are at an impasse. 
 
-As part of the study, I will be creating a database of tone-mapped videos, obtained from a set of HDR video clips. It is to collect this set of HDR clips that I am reaching out to you for your help. If you own a phone capable of recording HDR video (e.g. iPhones 12 and 13, and Samsung Galaxy S10 and S10+), please consider signing up to record and submit any number of HDR video clips using the Google Form linked above. Since each clip is expected to be around 20 seconds in length, this will likely not be a great demand on your time. Having said that, because we want to isolate the degradation in quality due to tone-mapping, please note that the video clips will need to be “pristine”, and follow certain guidelines. 
+That is why we need your help! If you have an HDR-capable phone (list below!), please share a few videos that you've filmed! We intend to create a database of hundreds to thousands of videos, so every single one counts! Below is a more detailed explanation of our goals and how you can participate and support this research! We hope you'll take a few minutes to contribute videos and share this survey with your friends to support our PhD research.
 
-## Instructions for filming HDR Videos
-Prior to filming, please ensure that HDR video recording is turned on ([iPhone](https://support.apple.com/en-in/guide/iphone/iph2cafe2ebc/ios), [Samsung](https://www.samsung.com/us/support/answer/ANS00086003/)).
+(We're PhD students after all, so we like to write a lot! Don't be alarmed by the length of this webpage! Feel free to skip the technical mumbo jumbo and use the paragraph headings to 🎶 skip to the good part(s) 🎶.)
 
-1. Please be sure to film either moving objects (like people walking around, trees shaking in the wind, etc.) or pan the camera slowly as you film. While it is important to avoid rapid camera movements, since they lead to motion blur, videos with almost no motion are not particularly useful since they are not very different from images. Aim to strike a balance so that the video contains motion but no motion blur.
-2. Film at a resolution of 1080p (landscape mode) and the highest available frame rate. The duration of the video must be at least 20 seconds long. Filming at the highest available framerate reduces the chances of motion blur. Filming at higher resolutions than 1080p is okay, but the video will be downscaled to 1080p at our end before any processing.
-3. Finally, follow these instructions to export your videos if you are using an [iPhone](https://support.apple.com/en-us/HT211950) (using iMovie may be the easiest choice). If you are using a Samsung phone, share the video from the "My Files" app. In both cases, do not share directly from the gallery/photos app - this will not export an HDR video. Furthermore, if you are given the option, export at the highest possible quality setting - do not compress! If you are not given any option regarding quality, follow the usual steps.
+## Introduction and Context:
+In the evolving realm of video technology, the emergence of High Dynamic Range (HDR) videos marks a significant advancement. Unlike the Standard Dynamic Range (SDR) videos, which are more commonly used, HDR videos represent a broader range of luminance. This not only ensures the depiction of brighter highlights but also retains details in shadows. Our research at the Laboratory for Image and Video Engineering (LIVE) at the University of Texas at Austin aims to delve deeper into studying HDR videos, especially for developing algorithms for HDR content. Shorts refer to brief video segments designed to capture specific moments in time. For the purpose of our research, these shorts are invaluable as they provide snapshots under diverse luminosity (brightness) conditions, emphasizing the richness of HDR.
 
-## Content suggestions and examples
-In addition to being "pristine", we would like to ensure that the content of the video is such that it highlights the strengths of HDR, i.e., it exhibits a wide range of brightness (i.e., video contains both bright and dark areas) and/or is colorful. To this end, you may find the following content suggestions helpful.
+## Project Specifications:
+**Objective**: Our primary goal is to compile a comprehensive database of pristine HDR shorts captured from a diverse set of contributors.
 
-1. Colorful scenes are preferred - this includes lights, trees, flowers, etc.
-2. Popular choices of HDR videos include nature/sceneries such as hills, a beautiful sunrise/sunset, trees in the fall.
-3. Night-time scenes with colorful lights, such as city walkthroughs are another popular choice.
-4. Snow in winter would be another great choice, since snow is very bright. It is also a good opportunity to capture colorful winter clothes, winter/Christmas lights, etc.
+**Data Type**: Videos should be HDR and have a minimum duration of 4 seconds to ensure the consistent quality and relevance of data. To assist you in identifying and selecting appropriate HDR videos from your mobile phone’s camera gallery, please refer to the next section.
 
-For examples of HDR videos, see [here](https://www.youtube.com/watch?v=N1-Jmq7BLFE) and [here](https://www.youtube.com/watch?v=0nTO4zSEpOs); several others are available on YouTube. Note that, unlike these examples, the audio that is captured along with your videos will be completely ignored, since we are interested in purely the visual quality. Finally, should you submit one or more videos to the study, we will ask that you sign an agreement allowing us to freely distribute them to the public. So, please do not submit any private, proprietary, or confidential videos.
+**Uploading Process**: Contributors should fill out this Qualtrics form to upload videos - <mark>[HDR Video Upload Form](https://utexas.qualtrics.com/jfe/form/SV_6QM5Z2gFY8S2YXY)</mark>.
 
-If you have any questions, please feel free to contact me at abhinaukumar@utexas.edu. I hope you will spend a small amount of your time supporting this line of research. Our findings will directly help in developing the next generation of video processing tools for delivering high-quality videos, making your contributions immensely valuable!
+**Copyright and Privacy Considerations**: To maintain academic integrity and ensure the unrestricted use of the videos for research and development, contributors will be prompted to agree to a set of general copyright and consent terms when filling in the Qualtrics form - <mark>[Copyright and Consent Terms](https://docs.google.com/document/d/11TSSnsdfLX8mBAHKXQzl93EPPcukiAp655DKPHeLHz4/edit?usp=sharing)</mark>.
 
+## Technical Guidelines and Recommendations:
+**Device Compatibility**: Ensuring that submissions stem from devices adept at capturing true HDR content is pivotal for the integrity of our research. The following is a list of mobile devices known for their capability to capture genuine HDR content: iPhone 12 and onwards, Samsung Galaxy S21 and onwards, Samsung Z Flip3/Fold3 and onwards, Oneplus 7 Pro and onwards, Google Pixel 6 Pro and Onwards, Xiaomi 12 Pro and Onwards, Xiaomi Mi 11i and Onwards, Huawei Mate 4 and Onwards, etc.
+
+<mark>Note that the above list is not exhaustive, and we recommend you check if your device camera is HDR capable. Please feel free to contact  [Abhinau](mailto:abhinaukumar@utexas.edu) or [Shreshth](mailto:saini.2@utexas.edu) to help you.</mark>
+
+
+**Selecting HDR Shorts**: We are interested only in HDR videos, not "regular" SDR videos. Most devices show a separate tag when you view the HDR video in the gallery, or you can check the video details. Eg: iPhone users can discern HDR videos by the specific tag located on the left corner of the video thumbnail or by checking the video's detailed properties. Make sure to upload videos from the Files App if your gallery app processes the video before uploading/exporting. 
+
+<mark>NOTE: iPhone users, please first select all HDR videos from the gallery and save them in the Files App, and upload them from Files only. Uploading from the gallery renders the video in SDR (which is of no use to us).</mark>
+
+<mark>If you are unsure, we recommend that you select all videos that you don't mind sharing, and we'll filter HDR videos from your uploaded corpus. Alternatively, you can contact either Abhinau [Abhinau](mailto:abhinaukumar@utexas.edu) or [Shreshth](mailto:saini.2@utexas.edu) for help. </mark>.
+
+**Suggested Content**: Given the visual richness of HDR, we recommend scenes that oscillate between bright and dark or those rich in colors. Urban landscapes at night, nature during the golden hours, or settings with vibrant color contrasts could exemplify HDR's capabilities. Videos filmed indoors of objects and people (read the consent form!), and selfie-style videos will also be accepted!
+
+<mark>If you are unsure, you can skip filtering for content type and simply upload all videos that you don't mind sharing, and we'll filter the ones that we think are most appropriate. </mark>
+
+## Purpose and Impact of the Research:
+**Why Your Contribution Matters:** Each submitted video enriches our database, enabling us to refine our understanding and methodologies for HDR content. This could revolutionize how content is viewed in the future.
+
+**Research Focus:** Using the collected shorts, our team will undertake extensive experiments, targeting quality evaluation and tone mapping to improve the delivery of HDR videos to a wide range of consumers without significant quality degradation.
+
+## Message from Authors: 
+As we said before, there is **no large-scale** open-source database of HDR videos available to researchers today. Your support and contributions serve as the backbone for this pioneering research. Tell your friends and colleagues about our study! A broader data set promises richer insights and better user experience on the internet!
+
+Your contribution will play a vital role in molding the future of video processing tools, ensuring content is viewed at its very best! 
+
+Once again, for any clarifications or inquiries, please reach out to [Abhinau](mailto:abhinaukumar@utexas.edu) or [Shreshth](mailto:saini.2@utexas.edu). We will gladly hold a conversation with you to guide you through the process as you help us with our research!
