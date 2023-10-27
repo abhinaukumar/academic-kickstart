@@ -76,7 +76,7 @@ email: ""
 ---
 
 <h3 style="text-align: center;">
- NOTICE: Please support my research by sharing videos from your phone! More details <a href=https://abhinaukumar.github.io>here</a>!
+ NOTICE: Please support my research by sharing videos from your phone! More details <a href=https://abhinaukumar.github.io/hdr-videos-call>here</a>!
 </h3>
 
 I am a PhD student at the University of Texas at Austin, in the Department of Electrical and Computer Engineering. I work at the Laboratory for Image and Video Engineering [(LIVE)](https://live.ece.utexas.edu) with [Prof. Alan Bovik](http://www.ece.utexas.edu/people/faculty/alan-bovik) as a Graduate Research Assistant. We use statistical, signal processing and machine learning methods to evaluate and optimize the subjective quality of images and videos. This is especially relevant in the context of the online [video explosion](https://www.ncta.com/whats-new/report-where-does-the-majority-of-internet-traffic-come) in recent years. Because of my researcrh in the area, I have had the pleasure of working with leading companies like Meta Platforms and Apple. I have also worked as a research intern at Carnegie Mellon University, in 2018.
